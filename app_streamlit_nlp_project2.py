@@ -322,8 +322,8 @@ def main():
     elif page=="Summary":
         st.header("Review Summarization Page")
         st.write("Enter your review below, and we will provide a summary for you.")
-        tokenizer = load_t5_tokenizer()
-        model = load_t5_model()
+        #tokenizer = load_t5_tokenizer()
+        #model = load_t5_model()
 
         # User input for review
         user_review = st.text_area("Enter your review here:")
@@ -331,7 +331,8 @@ def main():
         if st.button("Generate Summary"):
             # Perform summarization (you may need to replace this with your summarization logic)
             # For this example, let's assume a simple summary by taking the first 50 characters of the review
-            summary = summarize(user_review,tokenizer, model)
+            #summary = summarize(user_review,tokenizer, model)
+            summary="the model used for this part consume too much memory, you can try it on the colab https://colab.research.google.com/drive/1vFqinydgpA5K11Ld4YfAq0Bzn1XPlVEU?usp=sharing"
             
             st.subheader("Review Summary:")
             st.write(summary)
