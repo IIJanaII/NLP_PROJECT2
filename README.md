@@ -18,6 +18,10 @@ The review summary functionality generates a summary of a given review. Enter yo
 ## Repository Content
 - **`app_streamlit_nlp_project2.py`**: Python script to run the application.
 - **`notebook_project2.ipynb`**: Jupyter notebook containing the project work.
+- **`Trustpilot.ipynb`**: Jupyter notebook containing the code to scrap from Trustpilot, as it was too heavy to run in Google Colab.
+- **`Yelp.ipynb`**: Jupyter notebook containing the code to scrap from Yelp, as it was too heavy to run in Google Colab.
+- **`T5_Summary.ipynb`**: Jupyter notebook containing the abstrctive summary model, and its output, as it was too heavy to run in Google Colab.
+- **`word2vec_imdb.model`**: Pre-trained Word2Vec model for the ML Sentiment analysis part.
 - **`dataset`**:  containing the dataset used in the project.
 - **`bestmodel.pkl`**: the model in pkl format to predict the rating 
 - **`Trustpilot.ipynb`**: Jupyter notebook containing the code to scrap from Trustpilot, as it was too heavy to run in Google Colab.
